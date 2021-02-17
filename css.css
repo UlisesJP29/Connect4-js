@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body{
+    font-family: 'Alata', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Ronda {
+  font-size: 20px;
+  color: black;  
+  font-weight: bold;
+}
+#t2 {  
+  margin:20px;
+  border: 3px solid black;
+}
+td {
+  border: 3px solid green;
+  border-radius: 10vw;
+  background-color: white;
+}
+td#resul {
+  border:  black;
+  border-style:none;
+  border-radius: 0px;
+}
+#rondasGanadas1 {
+  border:  black;
+  border-style:none;
+  border-radius: 0px;
+}
+#rondasGanadas2 {
+  border:  black;
+  border-style:none;
+  border-radius: 0px;
+}
+
+#tabla {
+  border: 3px solid black;
+  width:500px;
+  height:500px;
+  background: rgb(255, 173, 21);
+}
+a {
+  font-size: 20px;
+  color: blue;  
+  font-weight: bold;
+}
+#turno {
+  font-size: 25px;
+  color: black;  
+  font-weight: bold;
+}
+
+#button {
+  display:none;
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  justify-content: center;
+  color:white;
+  border-radius: 5px;
+  margin:20px;
+}
